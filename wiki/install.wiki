@@ -1,17 +1,16 @@
 #summary Build, install, uninstall.
+#labels Featured,Phase-Deploy
 
 <wiki:toc max_depth="2" />
 
-= Build, install, uninstall =
+= Install binaries =
 
-== Install binaries ==
-
-=== MS Windows ===
+== MS Windows ==
 
 You can get ready-to-run binary for MS Windows on
 [http://code.google.com/p/hexglass/downloads/list download page].
 
-=== Ubuntu Linux ===
+== Ubuntu Linux ==
 
 You can install hexglass from {{{ppa:mezomish/qtapps}}}:
 
@@ -23,11 +22,11 @@ $ sudo apt-get install hexglass
 
 Thanks to *[http://murzin.ca/ Mikhail Murzin <mezomish@gmail.com>]*
 
-=== SuSE Linux ===
+== SuSE Linux ==
 
 You can search hexglass at [http://software.opensuse.org/search?q=hexglass openSUSE Build Service search engine] for one-click-install. Thanks to *Lazy_Kent*.
 
-=== Arch Linux ===
+== Arch Linux ==
 
 You can install hexglass fom AUR:
 
@@ -39,9 +38,9 @@ $ yaourt hexglass
 [https://wiki.archlinux.org/index.php/Yaourt install yaourt]
 if you do not have it yet.)
 
-== Build from sources ==
+= Build from sources =
 
-=== Quick guide ===
+== Quick guide ==
 
 Before building, you will need to have the Qt4 library and developers
 tools installed on your system.
@@ -75,13 +74,13 @@ Uninstall:
 $ sudo make uninstall
 }}}
 
-== Build-time settings ==
+= Build-time settings =
 
 If you prepare the binary for wide distribution,
 or just want to customise binary for yourself,
 you can do it at build-time.
 
-=== Installation path ===
+== Installation path ==
 
 You can specify alternative installation root
 (usefull to prepare packages):
@@ -90,7 +89,7 @@ You can specify alternative installation root
 $ make INSTALL_ROOT=/tmp/pkg_root
 }}}
 
-=== Default settings ===
+== Default settings ==
 
 You can specify default size and skin:
 
@@ -100,9 +99,9 @@ $ qmake 'DEFINES += DEFAULT_SIZE=0 DEFAULT_SKIN=0'
 
 Valid values are 0, 1, 2, 3, 4.
 
-== Build static binary for MS Windows using MinGW ==
+= Build static binary for MS Windows using MinGW =
 
-=== Build Qt library ===
+== Build Qt library ==
 
 First, [http://www.mingw.org/wiki/InstallationHOWTOforMinGW get and install MinGW].
 
@@ -139,7 +138,7 @@ mingw32-make
 
 Wait for complete build process, and now you have Qt library.
 
-=== Build HexGlass ===
+== Build HexGlass ==
 
 Get source codes from
 [http://code.google.com/p/hexglass/downloads/list download page],

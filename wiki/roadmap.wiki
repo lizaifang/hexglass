@@ -31,6 +31,8 @@ r47  trunk                              |     |
      |   ,------------------------------;     |
 r54  trunk                              |     |
      |   `--- tags/hexglass-1.1.2    [freeze] |
+r65  trunk                                    |
+     |   `--- tags/hexglass-1.2.0 (stable)    |
      |                                        |
      v                                        v
 }}}

@@ -1,0 +1,45 @@
+<!--
+
+HexGlass is a Tetris-like puzzle game.
+
+Project homepage: http://hexglass.googlecode.com/
+
+Copyright (C) 2010 Alexey Michurin <a.michurin@gmail.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+
+     <file>about_icon.xpm</file>
+     <file>logo512x512.xpm</file>
+
+     <file alias="tiny.xpm">skins/tiny.xpm</file>
+     <file alias="mosaic_small.xpm">skins/mosaic_small.xpm</file>
+     <file alias="mosaic_big.xpm">skins/mosaic_big.xpm</file>
+     <file alias="drop_small.xpm">skins/drop_small.xpm</file>
+     <file alias="drop_big.xpm">skins/drop_big.xpm</file>
+     <file alias="huge.xpm">skins/huge.xpm</file>
+
+     <file alias="hexglass_be.qm">../translations/hexglass_be.qm</file>
+     <file alias="hexglass_ca.qm">../translations/hexglass_ca.qm</file>
+     <file alias="hexglass_cs.qm">../translations/hexglass_cs.qm</file>
+     <file alias="hexglass_es.qm">../translations/hexglass_es.qm</file>
+     <file alias="hexglass_ru.qm">../translations/hexglass_ru.qm</file>
+     <file alias="hexglass_uk.qm">../translations/hexglass_uk.qm</file>
+     <file alias="hexglass_zh.qm">../translations/hexglass_zh.qm</file>
+
+</qresource>
+</RCC>

@@ -34,7 +34,9 @@ r54  trunk                              |     |
 r65  trunk                                    |
      |   `--- tags/hexglass-1.2.0 (stable)    |
      |   |                                    |
-     |   `--- branches/sdl_joystick ----.     |
-     |                                  |     |
-     v                                  v     v
+     |   `--- branches/sdl_joystick -------.  |
+r76  trunk                                 |  |
+     |   `--- tags/hexglass-1.2.1 (stable) |  |
+     |                                     |  |
+     v                                     v  v
 }}}
